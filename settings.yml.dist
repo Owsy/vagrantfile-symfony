@@ -1,0 +1,6 @@
+---
+sync_type: "nfs"
+synced_folders:
+  - app/DoctrineMigrations/
+rsync_exclude: [".git/", "app/cache/", "app/logs/", "app/DoctrineMigrations/"]
+rsync_watch: true
